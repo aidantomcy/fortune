@@ -1,16 +1,24 @@
 {
   "name": "@aidantomcy/fortune",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aidantomcy/fortune.git"
+  },
+  "homepage": "https://github.com/aidantomcy/fortune",
+  "bugs": {
+    "url": "https://github.com/aidantomcy/fortune/issues"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./index.js",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Aidan Tomcy",
+  "license": "MIT",
   "dependencies": {
     "gradient-string": "^2.0.2",
     "node-fetch": "^3.2.10"
