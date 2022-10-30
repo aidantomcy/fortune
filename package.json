@@ -13,7 +13,8 @@
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "semantic-release": "semantic-release"
   },
   "bin": "./index.js",
   "keywords": [],
@@ -22,5 +23,8 @@
   "dependencies": {
     "gradient-string": "^2.0.2",
     "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
   }
 }
