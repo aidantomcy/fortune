@@ -17,7 +17,12 @@
     "semantic-release": "semantic-release"
   },
   "bin": "./index.js",
-  "keywords": [],
+  "keywords": [
+    "fortune",
+    "quote",
+    "cli",
+    "javascript"
+  ],
   "author": "Aidan Tomcy",
   "license": "MIT",
   "dependencies": {
