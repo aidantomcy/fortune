@@ -30,6 +30,6 @@
     "node-fetch": "^3.2.10"
   },
   "devDependencies": {
-    "semantic-release": "^19.0.5"
+    "semantic-release": "^20.0.2"
   }
 }
