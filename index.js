@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 import gradient from "gradient-string";
-import fetch from "node-fetch";
+import quotes from "./quotes.json" assert { type: "json" };
 
-const response = await fetch("https://zenquotes.io/api/random");
-const data = await response.json();
-const quote = data[0]["q"] + "\n\t-- " + data[0]["a"];
-
-console.log(gradient.pastel(quote))
+const quote = quotes[Math.floor(Math.random() * quotes.length)];
+console.log(gradient.pastel(`${quote.text}\n\t- ${quote.author}`));
