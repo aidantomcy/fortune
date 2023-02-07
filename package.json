@@ -26,8 +26,7 @@
   "author": "Aidan Tomcy",
   "license": "MIT",
   "dependencies": {
-    "gradient-string": "^2.0.2",
-    "node-fetch": "^3.2.10"
+    "gradient-string": "^2.0.2"
   },
   "devDependencies": {
     "semantic-release": "^20.0.2"
