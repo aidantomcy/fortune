@@ -1,7 +1,6 @@
 # fortune
 
 This is a cli tool made in JavaScript, similar to the fortune package for Linux.
-This project uses the [Zen Quotes API](https://zenquotes.io/api).
 
 ![fortune demo](./fortune.gif)
 
